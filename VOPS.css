@@ -1,0 +1,300 @@
+   .otsikkopaa { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+		font-size:17px;
+     	text-align: left;
+		font-weight: bold;
+		}
+		
+   .otsikko2 { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+		font-size:15px;
+     	text-align: left;
+		font-weight: bold;
+		}
+		
+   .leipa { font-family: Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
+          	font-size: 15px;
+        	color: #000000;
+     		text-align: left;
+			line-height:17px;
+          	margin-left: 2%;
+          	margin-right: 2%;
+        }
+
+   .asetukset { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+		font-size:14px;
+     	text-align: right;
+
+// Otsikko aktivointivärillä
+          color: #ffffff;
+          // background-color: #FFFFFF;
+		// background: #BADA55;
+     	text-align: left;
+		vertical-align: middle;
+          margin-le	ft: 25%;
+          margin-right: 15%;
+          border-radius: 10px;
+        }
+
+// Otsikko aktivointivärillä
+          color: #ffffff;
+          // background-color: #FFFFFF;
+		// background: #BADA55;
+     	text-align: right;
+		vertical-align: middle;
+          margin-left: 25%;
+          margin-right: 15%;
+          border-radius: 10px;
+        }
+
+   .otsikko1keski { font-family: Times New Roman, serif;
+          	font-size: 17px;
+			font-weight: bold;
+        	color: #000000;
+     		text-align: center;
+          	margin-left: 0%;
+          	margin-right: 0%;
+			margin-top: 2%;
+			margin-bottom: 2%;
+        }
+
+   .leipaOikea { font-family: Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
+          	font-size: 12.5px;
+        	color: #000000;
+     		text-align: right;
+			vertical-align: top;
+			line-height:17px;
+			margin-left: 2%;
+          	margin-right: 2%;
+        }
+
+   .leipaTaulukkoKeskitys
+   			{ font-family: Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
+          	font-size: 12.5px;
+        	color: #000000;
+     		text-align: center;
+			vertical-align: top;
+			line-height:17px;
+			margin-left: 0%;
+          	margin-right: 0%;
+        }
+
+
+   .oppiaine { font-family: Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
+          	font-size: 13px;
+        	color: #000000;
+     		text-align: left;
+			line-height:17px;
+          	margin-top: 25%;
+          	margin-bottom: 25%;
+          	margin-left: 2%;
+          	margin-right: 2%;
+        }
+
+   .paanavi { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+		font-size:38px Arial;
+          // Aktiivinen väri näkymälle, muut valkoisia tällä hetkellä
+          color: #FFFFFF;
+          // background-color: #FFFFFF;
+		// background: #BADA55;
+     	text-align: center;
+          margin-left: 15%;
+          margin-right: 15%;
+          border-radius: 10px;
+        }
+
+   .muronavi { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+          	font-size: 16px;
+			font-weight: bold;
+        		color: #BADA55;
+//        	background-color: #b3cc30;
+     		text-align: center;
+          margin-left: 15%;
+          margin-right: 15%;
+          border-radius: 10px;
+		}
+
+   .muronavi-suunnitelma { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+          	font-size: 16px;
+			font-weight: bold;
+        		color: #000000;
+        	background-color: #9de1f0;
+     		text-align: center;
+			border-radius: 5px;
+			border: 2px solid #7a858c;
+//			padding: 20px; 
+//			width: 200px;
+	height: 50px;
+		}
+
+   .reunat-suunnitelma { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+          	font-size: 16px;
+			font-weight: bold;
+        		color: #000000;
+	        	background-color: #ffffff;
+     		text-align: center;
+			border-radius: 5px;
+			border: 10px solid #9de1f0;
+			padding: 10px; 
+			width: 200px;
+	height: 150px;
+}
+
+   .muronavi-rekisteri { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+          	font-size: 16px;
+			font-weight: bold;
+        		color: #000000;
+        	background-color: #fffc6f;
+     		text-align: center;
+			border-radius: 5px;
+			border: 2px solid #7a858c;
+//			padding: 20px; 
+//			width: 200px;
+	height: 50px;
+		}
+
+   .reunat-rekisteri { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+          	font-size: 16px;
+			font-weight: bold;
+        		color: #000000;
+	        	background-color: #ffffff;
+     		text-align: center;
+			border-radius: 5px;
+			border: 10px solid #fffc6f;
+			padding: 10px; 
+			width: 200px;
+	height: 150px;
+}
+
+   .muronavi-kirjoitukset { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+          	font-size: 16px;
+			font-weight: bold;
+        		color: #000000;
+        	background-color: #fb6f7a;
+     		text-align: center;
+			border-radius: 5px;
+			border: 2px solid #7a858c;
+//			padding: 20px; 
+//			width: 200px;
+	height: 50px;
+		}
+
+   .reunat-kirjoitukset { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+          	font-size: 16px;
+			font-weight: bold;
+        		color: #000000;
+	        	background-color: #ffffff;
+     		text-align: center;
+			border-radius: 5px;
+			border: 10px solid #fb6f7a;
+			padding: 10px; 
+			width: 200px;
+	height: 150px;
+}
+
+   .muronavi-jatko { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+          	font-size: 16px;
+			font-weight: bold;
+        		color: #000000;
+        	background-color: #8983e7;
+     		text-align: center;
+			border-radius: 5px;
+			border: 2px solid #7a858c;
+//			padding: 20px; 
+//			width: 200px;
+	height: 50px;
+		}
+
+
+
+   .reunat-jatko { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+          	font-size: 16px;
+			font-weight: bold;
+        		color: #000000;
+	        	background-color: #ffffff;
+     		text-align: center;
+			border-radius: 25px;
+			border: 10px solid #8983e7;
+			padding: 10px; 
+			width: 200px;
+	height: 150px;
+}
+
+   .muronavi-omattiedot { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+          	font-size: 16px;
+			font-weight: bold;
+        		color: #000000;
+        	background-color: #abcdcc;
+     		text-align: center;
+			border-radius: 5px;
+			border: 2px solid #7a858c;
+//			padding: 20px; 
+//			width: 200px;
+	height: 50px;
+		}
+
+   .reunat-omattiedot { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+          	font-size: 16px;
+			font-weight: bold;
+        		color: #000000;
+	        	background-color: #ffffff;
+     		text-align: center;
+			border-radius: 25px;
+			border: 10px solid #abcdcc;
+			padding: 10px; 
+			width: 200px;
+	height: 150px;
+}
+
+input.largerCheckbox
+{
+width: 30px;
+height: 30px;
+}
+
+
+	.reunat { 
+          -moz-border-radius: 15px; 
+     	border-radius: 15px; 
+			border: 2px solid #7a858c;
+			padding: 0px; 
+			width: 200px;
+        }
+ 
+a {
+    		color: black;
+		text-decoration: none;
+}
+
+
+
+
+//.aikoo-pallo {
+//    background-color:fffc6f;
+//    border: 1px solid #515056;
+//    height:15px;
+//    width:15px;
+//    -webkit-border-radius:7.5px;
+//    -moz-border-radius:7.5px;
+//}
+//
+
+//	th { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+//		font-size:18 px Arial;
+//          color: #FFFFFF;
+//          // background-color: #FFFFFF;
+//		// background: #BADA55;
+//          border-radius: 10px;
+//        }
+
+  .navikieli { font-family: Verdana, Helvetica, Arial, sans-serif;
+          	font-size: 10px;
+        	color: #333333;
+     		text-align: left;
+			line-height:12px;
+          	margin-left: 5%;
+          	margin-right: 5%;
+		}
+		
+		
+// Värit Suunnitelma syaani #9de1f0 Rekisteri keltainen fffc6f
+// Kirjoitukset Punainen fb6f7a Jatko violetti 8983e7 Omat tiedot vihreähkö abcdcc
+		
