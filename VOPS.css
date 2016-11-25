@@ -104,18 +104,18 @@
    .muronavi { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
           	font-size: 16px;
 			font-weight: bold;
-        		color: #BADA55;
-//        	background-color: #b3cc30;
+        		color: #bceaf5;
+//        	background-color: #bceaf5;
      		text-align: center;
           margin-left: 15%;
           margin-right: 15%;
           border-radius: 10px;
 		}
 
-   .muronavi-suunnitelma { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+   .muronavi-opintosuunnitelma { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
           	font-size: 16px;
 			font-weight: bold;
-        		color: #000000;
+        		color: #bceaf5;
         	background-color: #9de1f0;
      		text-align: center;
 			border-radius: 5px;
@@ -125,7 +125,7 @@
 	height: 50px;
 		}
 
-   .reunat-suunnitelma { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+   .reunat-opintosuunnitelma { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
           	font-size: 16px;
 			font-weight: bold;
         		color: #000000;
@@ -138,36 +138,37 @@
 	height: 150px;
 }
 
-   .muronavi-rekisteri { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
-          	font-size: 16px;
-			font-weight: bold;
-        		color: #000000;
-        	background-color: #fffc6f;
-     		text-align: center;
-			border-radius: 5px;
-			border: 2px solid #7a858c;
+
+//   .muronavi-rekisteri { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+//          	font-size: 16px;
+//			font-weight: bold;
+ //       		color: #000000;
+ //       	background-color: #fffc6f;
+ //    		text-align: center;
+//			border-radius: 5px;
+//			border: 2px solid #7a858c;
 //			padding: 20px; 
 //			width: 200px;
-	height: 50px;
-		}
+//	height: 50px;
+//		}
 
-   .reunat-rekisteri { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+//   .reunat-rekisteri { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+//          	font-size: 16px;
+//			font-weight: bold;
+ //       		color: #000000;
+//	        	background-color: #ffffff;
+  //   		text-align: center;
+//			border-radius: 5px;
+//			border: 10px solid #fffc6f;
+//			padding: 10px; 
+//			width: 200px;
+//	height: 150px;
+//}
+
+   .muronavi-yo-kirjoitukset { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
           	font-size: 16px;
 			font-weight: bold;
-        		color: #000000;
-	        	background-color: #ffffff;
-     		text-align: center;
-			border-radius: 5px;
-			border: 10px solid #fffc6f;
-			padding: 10px; 
-			width: 200px;
-	height: 150px;
-}
-
-   .muronavi-kirjoitukset { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
-          	font-size: 16px;
-			font-weight: bold;
-        		color: #000000;
+        		color: #bceaf5;
         	background-color: #fb6f7a;
      		text-align: center;
 			border-radius: 5px;
@@ -177,7 +178,7 @@
 	height: 50px;
 		}
 
-   .reunat-kirjoitukset { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+   .reunat-yo-kirjoitukset { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
           	font-size: 16px;
 			font-weight: bold;
         		color: #000000;
@@ -190,10 +191,10 @@
 	height: 150px;
 }
 
-   .muronavi-jatko { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+   .muronavi-jatko-opinnot { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
           	font-size: 16px;
 			font-weight: bold;
-        		color: #000000;
+        		color: #bceaf5;
         	background-color: #8983e7;
      		text-align: center;
 			border-radius: 5px;
@@ -205,7 +206,7 @@
 
 
 
-   .reunat-jatko { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+   .reunat-jatko-opinnot { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
           	font-size: 16px;
 			font-weight: bold;
         		color: #000000;
@@ -218,10 +219,10 @@
 	height: 150px;
 }
 
-   .muronavi-omattiedot { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+   .muronavi-omat-tiedot { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
           	font-size: 16px;
 			font-weight: bold;
-        		color: #000000;
+        		color: #bceaf5;
         	background-color: #abcdcc;
      		text-align: center;
 			border-radius: 5px;
@@ -231,7 +232,7 @@
 	height: 50px;
 		}
 
-   .reunat-omattiedot { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+   .reunat-omat-tiedot { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
           	font-size: 16px;
 			font-weight: bold;
         		color: #000000;
