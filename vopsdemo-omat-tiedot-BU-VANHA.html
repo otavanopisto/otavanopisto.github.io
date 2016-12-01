@@ -26,7 +26,7 @@
 		<td>
 
 <!-- P&auml;&auml;NAVI -taulukko-->
-	<table cols="5" border="0" cellpadding="0" cellspacing="1" style="width: 750px">
+	<table cols="5" border="1" cellpadding="0" cellspacing="1" style="width: 750px">
 		<tr>
 			<td width="150" class="paanavi">
 				<p>
@@ -71,8 +71,7 @@ studies</a></th>
 <!-- NÄKYMÄN OTSIKKO SEKÄ MUOKKAUS NAVI -taulukko -->
 	<table border="0" cellpadding="1" cellspacing="1" style="width: 750px">
 		<tr>		
-			<td class="otsikkopaa" width="500">My overall targets
-</td>
+			<td class="otsikkopaa" width="500">Yo-kirjoitukseni</td>
 			<td class="asetukset" align="right">
 			&nbsp;&nbsp;
 <span title="Siirry Yo-tutkinnon aikataulu-sivulle (vain yo-kirjoittajien painike) - TOIMII">
@@ -108,40 +107,52 @@ studies</a></th>
 
 	<table border="0" cellpadding="6" cellspacing="0" style="width: 750px">
 		<tr>
+			<td colspan="5" class="otsikkopaa">
+Henkil&ouml;kohtainen opiskelusuunnitelma (HOPS)
+			</td>
+		</tr>
+
+		<tr>
 			<td colspan="5" class="leipa">
-<p><b>Please submit your PSP to the leader of your small group by saving this form on the button below.</b></p>
+<p>&nbsp;</p>
+<b>Ole hyv&auml; ja palauta HOPS omalle pienryhm&auml;ohjaajallesi tallentamalla lomakkeen tiedot.</b></p>
 
 			<table>
 				<tr>
-					<td class="leipa">Your name:</td>
+					<td class="leipa">Nimi:</td>
 					<td><input type="text" name="nimi" size="50"></td>
-					<td class="leipa">Date</td>
-					<td><input type="text" name="pvm" size="10" value="02.12.2016"></td>
+					<td class="leipa">P&auml;iv&auml;ys:</td>
+					<td><input type="text" name="pvm" size="1"></td>
 				</tr>
 			</table>				
 <span title="Tarvitaanko t&auml;t&auml; t&auml;ss&auml; vai laitetaanko ohjeisiin?">
-<p>You may spend a maximum of 4 years for your upper secondary studies. You may complete these studies in 2–4 years.
+<p>Lukio-opintoihin saat opiskeluaikaa enint&auml;&auml;n nelj&auml; vuotta. 
+Voit suorittaa opinnot noin 2-4 vuoden aikana.
 <br>&nbsp;<br>
-If you have a vocational qualification that required no less than 2.5 years (120 ECTS) of studies, you may take part in the matriculation examination.<br>&nbsp;<br>
-If your vocational qualification required 2 years of studies, you must take at least two upper secondary level courses in the subjects in which you wish to complete the matriculation examination.</p>
+V&auml;hint&auml;&auml;n 2,5-vuotinen 
+ammatillinen perustutkinto (120 ov) antaa suoraan osallistumisoikeuden 
+yo-kirjoituksiin.
+<br>&nbsp;<br>
+2-vuotisen ammatillisen tutkinnon suorittaneelta vaaditaan
+v&auml;hint&auml;&auml;n kahden lukiokurssin suorittamista niiss&auml; oppiaineissa, joiden yo-kokeisiin h&auml;n haluaa osallistua.</p>
 </span>
-<p><div class="otsikko2vasen">Kokonaistavoitteet</div></p>
+<p><div class="otsikko2">Kokonaistavoitteet</div></p>
 
-Check the appropriate alternative and talk with your online tutor</b>:</p>
+Rastita sopiva vaihtoehto</b>:</p>
 
 <table width="500">
 	<tr bgcolor="#FFFFFF">
 		<td class="leipa">
-			I aim to obtain a certificate of upper secondary education.
+			Tavoitteenani on lukion p&auml;&auml;tt&ouml;todistus
 		</td>
  		<td class="leipa">
-			Yes <input type="radio" name="paatto" id="paatto-kylla" value="paatto-kylla">
+			Kyll&auml; <input type="radio" name="paatto" id="paatto-kylla" value="paatto-kylla">
 		</td>
  		<td class="leipa">
-			No <input type="radio" name="paatto" id="paatto-ei" value="paatto-ei">
+			Ei <input type="radio" name="paatto" id="paatto-ei" value="paatto-ei">
 		</td>
  		<td class="leipa">
-			I don't know yet <input type="radio" name="paatto" id="paatto-eos" value="paatto-eos">
+			En tied&auml; <input type="radio" name="paatto" id="paatto-eos" value="paatto-eos">
 		</td>
 	</tr>  
 </table>
@@ -151,16 +162,16 @@ Check the appropriate alternative and talk with your online tutor</b>:</p>
 <table width="500">
 	<tr>
 		<td class="leipa">
-			I aim to complete the matriculation examination.
+			Aion suorittaa yo-kirjoitukset
 		</td>
  		<td class="leipa">
-			Yes <input type="radio" name="yo" id="yo-kylla" value="yo-kylla">
+			Kyll&auml; <input type="radio" name="yo" id="yo-kylla" value="yo-kylla">
 		</td>
  		<td class="leipa">
-			No <input type="radio" name="yo" id="yo-ei" value="yo-ei">
+			Ei <input type="radio" name="yo" id="yo-ei" value="yo-ei">
 		</td>
  		<td class="leipa">
-			I don't know yet <input type="radio" name="yo" id="yo-eos" value="yo-eos">
+			En tied&auml; <input type="radio" name="yo" id="yo-eos" value="yo-eos">
 		</td>
 	</tr>  
 </table>
@@ -170,14 +181,15 @@ Check the appropriate alternative and talk with your online tutor</b>:</p>
 <table width="500">
 	<tr bgcolor="#FFFFFF">
 		<td class="leipa">
-I have a    <input type="text" name="ammatillinen" size="2"> year vocational qualification and wish to take part in the matriculation examination only.
+Minulla on   <input type="text" name="ammatillinen" size="1"> vuoden tai vuosien 
+laajuinen ammatillinen perustutkinto ja haluan suorittaa pelk&auml;t yo-kirjoitukset
 &nbsp;<br>
 		</td>
  		<td class="leipa">
-			Yes <input type="radio" name="yo" id="yo-kylla" value="yo-kylla">
+			Kyll&auml; <input type="radio" name="yo" id="yo-kylla" value="yo-kylla">
 		</td>
  		<td class="leipa">
-			No <input type="radio" name="yo" id="yo-ei" value="yo-ei">
+			Ei <input type="radio" name="yo" id="yo-ei" value="yo-ei">
 		</td>
 	</tr>  
 </table>
@@ -187,13 +199,14 @@ I have a    <input type="text" name="ammatillinen" size="2"> year vocational qua
 <table width="500">
 	<tr>
 		<td class="leipa">
-I have <input type="text" name="hyvaksiluku" size="2"> years of previous upper secondary/vocational studies and wish to have my previous studies accredited.</p>
+Minulla on vuotta aiempia lukio- tai ammatillisia opintoja ja
+haluan hyv&auml;ksiluvut suorituksistani</p>
 		</td>
  		<td class="leipa">
-			Yes <input type="radio" name="yo" id="yo-kylla" value="yo-kylla">
+			Kyll&auml; <input type="radio" name="yo" id="yo-kylla" value="yo-kylla">
 		</td>
  		<td class="leipa">
-			No <input type="radio" name="yo" id="yo-ei" value="yo-ei">
+			En <input type="radio" name="yo" id="yo-ei" value="yo-ei">
 		</td>
 	</tr>  
 </table>
@@ -203,7 +216,7 @@ I have <input type="text" name="hyvaksiluku" size="2"> years of previous upper s
 <table width="500">
 	<tr bgcolor="#FFFFFF">
   <td class="leipa">
-I expect to complete my upper secondary studies in <input type="text" name="ammatillinen" size="2"> years.
+Arvioin suorittavani lukion <input type="text" name="ammatillinen" size="1">  vuodessa
   </td>
  		<td class="leipa">
   &nbsp;
@@ -211,19 +224,19 @@ I expect to complete my upper secondary studies in <input type="text" name="amma
  </tr>
 </table>
 
-<p>(NOTE! Previous upper secondary studies impact the duration of studies.)</p>
+<p>(HUOM! Aiemmat <b>lukio-opinnot</b> vaikuttavat opiskeluaikaan)</p>
 
 <table width="500">
 	<tr bgcolor="#FFFFFF">
 		<td class="leipa">
 <span title="Vaikuttaa VOPS:in sy&ouml;tt&ouml;n&auml;kym&auml;&auml;n ja sy&ouml;tt&ouml;ruudukon kokoon">
-I intend to complete Mathematics: </span>
+Haluan suorittaa matematiikassa </span>
 		</td>
  		<td class="leipa">
-			Ordinary <input type="radio" name="yo" id="yo-kylla" value="yo-kylla">
+			lyhyen <input type="radio" name="yo" id="yo-kylla" value="yo-kylla">
 		</td>
  		<td class="leipa">
-			Advanced  <input type="radio" name="yo" id="yo-ei" value="yo-ei"> 
+			pitk&auml;n <input type="radio" name="yo" id="yo-ei" value="yo-ei"> opim&auml;&auml;r&auml;n
 		</td>
 	</tr>  
 </table>
@@ -234,24 +247,24 @@ I intend to complete Mathematics: </span>
 	<tr>
 		<td class="leipa">
 <span title="Vaikuttaa VOPS:in sy&ouml;tt&ouml;n&auml;kym&auml;&auml;n ja sy&ouml;tt&ouml;ruudukon kokoon">
-I intend to study the following languages </span>
+Haluan suorittaa seuraavat kielet </span>
 		</td>
  		<td class="leipa">
-<input type="text" name="kieli2" size="10">
+XXX
 		</td>
  		<td class="leipa">
-<input type="text" name="kieli3" size="10">
+XXX
 		</td>
 	</tr>  
 </table>
 
-<p class=MsoNormal>The PSP is a plan that may be easily changed. You may update your selections as you proceed with your studies. </p>
+<p class=MsoNormal>HOPS on suunnitelma, jota voidaan muuttaa. Voit p&auml;ivitt&auml;&auml; valintojasi my&ouml;hemmin opintojesi edistyess&auml;. </p>
 
 			</td>
 		</tr>
 	</table>
 
-<input type="button" onclick="alert('Your PSP is saved now')" value="Save your plan">
+<input type="button" onclick="alert('Tietosi ovat nyt tallennettu, kiitos')" value="Tallenna suunnitelmasi tiedot">
 
 </form>
 

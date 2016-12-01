@@ -10,6 +10,12 @@
 		font-weight: bold;
 		}
 		
+   .otsikko2vasen { font-family: Arial, Helvetica, MS Trebuchet, sans-serif;
+		font-size:15px;
+     	text-align: left;
+		font-weight: bold;
+		}
+
    .leipa { font-family: Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
           	font-size: 15px;
         	color: #000000;
